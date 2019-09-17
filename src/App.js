@@ -2,21 +2,24 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img class = "im" src="https://icon-library.net/images/github-icon-svg/github-icon-svg-14.jpg" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <code>Hello World!</code>
+          <br></br>
+          Abdullah Alhasan's First React App!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/aalhsn"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github
         </a>
       </header>
     </div>
